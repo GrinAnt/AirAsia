@@ -15,20 +15,41 @@ body {
 }
 
 .wrapper {
-	max-width: 1920px;
+	max-width: 1141px;
 	margin: 0 auto;
 	background-color: #001821;
 }
+
+
+/******************** BUTTON **********************/
+.button {
+	font-weight: 700;
+	line-height: 19px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 18px 40px;
+	background-color: #F5170E;
+	border-radius: 35px;
+	transition: 0.2s linear;
+}
+
+.button:hover {
+	background-color: #DA0100;
+}
+
+/******************** HEADER **********************/
 
 .header {
 	/* background-image: url("../images/header_img.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100vh; */
-	max-width: 1141px;
-	margin: 0 auto;
+	/* max-width: 1141px;
+	margin: 0 auto; */
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 131px;
 }
 
 .logo {
@@ -125,3 +146,27 @@ body {
 	visibility: visible;
 	opacity: 1;
 }
+
+/******************** PREVIEW **********************/
+
+.preview {
+	margin-bottom: 246px;
+}
+
+.idea {
+	width: 511px;
+}
+
+.idea__title {
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 98px;
+	margin-bottom: 27px;
+}
+
+.idea__text {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 51px;
+}
+
