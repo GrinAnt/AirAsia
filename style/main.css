@@ -21,14 +21,16 @@ body {
 }
 
 
-/******************** BUTTON **********************/
+/******************** ОБЩИЕ СТИЛИ *******************/
 .button {
+	display: inline-block;
 	font-weight: 700;
 	line-height: 19px;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 18px 40px;
+	/* border: 1px solid blue; */
 	background-color: #F5170E;
 	border-radius: 35px;
 	transition: 0.2s linear;
@@ -36,6 +38,13 @@ body {
 
 .button:hover {
 	background-color: #DA0100;
+}
+
+.titels {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 49px;
+	margin-bottom: 51px;
 }
 
 /******************** HEADER **********************/
@@ -167,6 +176,108 @@ body {
 .idea__text {
 	font-size: 18px;
 	line-height: 20px;
-	margin-bottom: 51px;
+	margin-bottom: 33px;
 }
 
+/******************** TOURS **********************/
+
+.tours {
+	margin-bottom: 127px;
+}
+
+.tours__title::after {
+	content: url(../images/fire.png);
+	padding-left: 12px;
+}
+
+.tours__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tours__image {
+	border-radius: 5px 5px 0 0;
+}
+
+.tours__img {
+	margin-bottom: 33px;
+}
+
+.tours__item {
+	list-style: none;
+	background-color: #fff;
+	border-radius: 5px 5px 5px 5px;
+	margin-right: 27px;	
+}
+
+.tours__item:nth-child(3n){
+	margin-right: 0;
+}
+
+.tours__info {
+	width: 324px;
+	padding-left: 5px;
+	margin: 0 auto;
+}
+
+.tours__name {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 33px;
+	color: #000;
+	margin-bottom: 21px;
+}
+
+.tours__note {
+	margin-bottom: 23px;
+}
+
+.tours__notion {
+	font-size: 16px;
+	line-height: 22px;
+	color: #666;
+	margin-right: 40px;
+	padding-left: 36px;
+	position: relative;
+}
+
+.tours__text {
+	line-height: 21px;
+	color: #303030;
+	margin-bottom: 24px;
+}
+
+.tours__btn {
+	padding: 18px 29px 18px 30px;
+	margin-bottom: 26px; 
+}
+
+.tours__btn_transparent {
+	background-color: #fff;
+	color: #F5170E;
+	border: 1px solid #F5170E;
+}
+
+.tours__btn_transparent:hover {
+	color: #fff;;
+}
+
+.tours__notion:first-child::before {
+	content: url(../images/calendar.png);
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	padding-right: 10px;
+	top: -2px;
+	left: 0;
+}
+
+.tours__notion:nth-child(2)::before {
+	content: url(../images/meal.png);
+	position: absolute;
+	width: 36px;
+	height: 26px;
+	padding-right: 10px;
+	top: -2px;
+	left: -10px;
+}
