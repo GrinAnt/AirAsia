@@ -369,7 +369,7 @@ body {
 /******************** ABOUT-US **********************/
 
 .about-us {
-	margin-bottom: 53px;
+	margin-bottom: 100px;
 	position: relative;
 }
 
@@ -413,4 +413,88 @@ body {
 
 .about-us__btn {
 	margin-bottom: 66px;
+}
+
+
+/******************** FOOTER **********************/
+
+.footer {
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	display: flex;
+	margin-bottom: 57px;
+}
+
+.footer .menu {
+	margin-top: 60px;
+}
+
+.footer .logo {
+	margin-top: 46px;
+}
+
+.socials__list {
+	display: flex;
+	margin-right: 76px;
+	margin-top: 50px;
+}
+
+.socials__item {
+	list-style: none;
+}
+
+.socials__item:not(:last-child) {
+	margin-right: 10px;
+}
+
+.socials__link::before {
+	content: "";
+	display: block;
+	width: 36px;
+	height: 36px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: .3s linear;
+}
+
+.socials__link_tl::before {
+	background-image: url(../images/telegram.png);
+}
+
+.socials__link_vk::before {
+	background-image: url(../images/vk.png);
+}
+
+.socials__link_fb::before {
+	background-image: url(../images/facebook.png);
+}
+
+.socials__link_ins::before {
+	background-image: url(../images/in.png);
+}
+
+.socials__link_tl:hover::before {
+	background-image: url(../images/telegram_hover.png);
+}
+
+.socials__link_vk:hover::before {
+	background-image: url(../images/vk_hover.png);
+}
+
+.socials__link_fb:hover::before {
+	background-image: url(../images/facebook_hover.png);
+}
+
+.socials__link_ins:hover::before {
+	background-image: url(../images/ins_hover.png);
+}
+
+.footer .contacts {
+	margin-top: 35px;
+}
+
+.contacts__info {
+	font-size: 11px;
+	line-height: 20px;
+	color: #9a9a9a;
+	margin-bottom: 6px;
 }
