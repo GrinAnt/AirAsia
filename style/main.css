@@ -15,9 +15,12 @@ body {
 }
 
 .wrapper {
-	max-width: 1141px;
+	max-width: 1920px;
 	margin: 0 auto;
-	background-color: #001821;
+	background-image: url(../images/main_fon.jpg);
+	/* background-color: #001821; */
+	background-repeat: no-repeat;
+	background-size: cover;	
 }
 
 
@@ -30,7 +33,6 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 18px 40px;
-	/* border: 1px solid blue; */
 	background-color: #F5170E;
 	border-radius: 35px;
 	transition: 0.2s linear;
@@ -47,18 +49,20 @@ body {
 	margin-bottom: 51px;
 }
 
+.header,
+.main,
+.footer {
+	max-width: 1141px;
+	margin: 0 auto;
+}
+
 /******************** HEADER **********************/
 
 .header {
-	/* background-image: url("../images/header_img.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 100vh; */
-	/* max-width: 1141px;
-	margin: 0 auto; */
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 131px;
+	position: relative;
 }
 
 .logo {
