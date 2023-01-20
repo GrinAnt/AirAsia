@@ -342,6 +342,7 @@ body {
 .pagination__text {
 	font-size: 16px;
 	line-height: 20px;
+	padding-top: 4px;
 }
 
 .pagination__list {
@@ -350,9 +351,9 @@ body {
 	position: relative;
 }
 
-.pagination__item:not(:last-child) {
+/* .pagination__item:not(:last-child) {
 	margin-right: 24px;
-}
+} */
 
 .pagination__link {
 	display: inline-block;
@@ -362,6 +363,17 @@ body {
 	font-weight: 700;
 	line-height: 21px;
 	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	padding: 5px;
+}
+
+
+.pagination__link:hover {
+	background-color: #fff;
+	color: #F5170E;
 }
 
 
@@ -444,6 +456,10 @@ body {
 
 .socials__item:not(:last-child) {
 	margin-right: 10px;
+}
+
+.socials__text {
+	display: none;
 }
 
 .socials__link::before {
