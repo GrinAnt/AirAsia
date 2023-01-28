@@ -1,4 +1,8 @@
-.logo {
-  position: absolute;
-  top: 29px;
+.logo__image {
+  margin-right: 80px;
+}
+
+.logo--size--big .logo__image {
+  width: 99px;
+  margin-right: 66px;
 }

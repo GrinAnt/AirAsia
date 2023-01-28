@@ -1,9 +1,3 @@
-.socials {
-  position: absolute;
-  top: 50px;
-  right: 265px;
-}
-
 .socials__list {
   display: flex;
 }

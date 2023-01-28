@@ -24,7 +24,7 @@ body {
 
 .mane-page-wrapper {
   background: url(../../images/background/header_img.jpg) top center / 100% no-repeat,
-    url(../../images/background/bottom_img.jpg) bottom 18px center / 100% no-repeat;
+    url(../../images/background/bottom_img.jpg) bottom 110px center / 100% no-repeat;
 }
 
 .container {
@@ -46,4 +46,17 @@ ul li {
   font-weight: 700;
   line-height: 49px;
   margin-bottom: 51px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

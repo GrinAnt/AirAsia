@@ -13,13 +13,13 @@
   background-size: contain;
   width: 785px;
   border-radius: 5px;
-  /* bottom: -43px; */
+  position: absolute;
   top: 97px;
   right: 2px;
-  position: absolute;
   z-index: 50;
   margin-left: auto;
   padding: 70px 81px 66px;
+  overflow: hidden;
 }
 
 .about-us__title {
@@ -33,4 +33,5 @@
   font-size: 16px;
   line-height: 27px;
   color: #060606;
+  overflow: hidden;
 }

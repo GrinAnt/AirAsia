@@ -1,6 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 196px;
-  position: relative;
+  margin-bottom: 121px;
+  align-items: center;
+  padding-top: 28px;
 }
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--align-right {
+  justify-content: flex-end;
+}
+
+/*********************** SERVICES *****************************/
