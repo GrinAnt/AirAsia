@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  margin-bottom: 140px;
+  position: relative;
+}
+
+.footer .logo {
+  position: absolute;
+  top: 46px;
+}
+
+.footer .menu {
+  position: absolute;
+  top: 60px;
+  left: 165px;
+}
+
+.footer .contacts {
+  position: absolute;
+  top: 43px;
+  right: 0;
+}
+
+.footer--line-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

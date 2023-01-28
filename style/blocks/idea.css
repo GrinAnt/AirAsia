@@ -1,0 +1,16 @@
+.idea {
+  width: 511px;
+}
+
+.idea__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 98px;
+  margin-bottom: 29px;
+}
+
+.idea__text {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 33px;
+}

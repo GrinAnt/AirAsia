@@ -1,0 +1,108 @@
+.tours {
+  margin-bottom: 127px;
+}
+
+.tours__title {
+  position: relative;
+}
+
+.tours__title::after {
+  content: url(../../images/decor/fire.png);
+  position: absolute;
+  width: 21px;
+  height: 28px;
+  left: 288px;
+  top: 3px;
+}
+
+.tours__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tours__image {
+  border-radius: 5px 5px 0 0;
+}
+
+.tours__img {
+  margin-bottom: 29px;
+}
+
+.tours__item {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 27px;
+}
+
+.tours__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.tours__info {
+  width: 324px;
+  padding-left: 3px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.tours__name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.tours__note {
+  margin-bottom: 24px;
+}
+
+.tours__notion {
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  margin-right: 28px;
+  padding-left: 42px;
+  position: relative;
+}
+
+.tours__text {
+  line-height: 21px;
+  color: #303030;
+  margin-bottom: 24px;
+}
+
+.tours__btn {
+  padding: 18px 29px 18px 30px;
+}
+
+.tours__btn--color--transparent {
+  background-color: #fff;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+}
+
+.tours__btn--color--transparent:hover {
+  color: #fff;
+}
+
+.tours__notion:first-child::before {
+  content: url(../../images/icons/calendar.png);
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  padding-right: 10px;
+  top: -3px;
+  left: 6px;
+}
+
+.tours__notion:nth-child(2)::before {
+  content: url(../../images/icons/meal.png);
+  position: absolute;
+  width: 36px;
+  height: 26px;
+  padding-right: 10px;
+  top: -3px;
+  left: -3px;
+}

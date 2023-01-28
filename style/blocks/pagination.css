@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  margin: 0 auto;
+}
+
+.pagination__text {
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 4px;
+}
+
+.pagination__list {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+.pagination__link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+}
+
+.pagination__link:hover {
+  background-color: #fff;
+  color: #f5170e;
+}
