@@ -9,6 +9,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-smoothing: grayscale;
   color: #fff;
   background-color: #001821;
 }
@@ -17,8 +20,8 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 10px;
-  background: url(../images/header_img.jpg) top center / 100% no-repeat,
-    url(../images/bottom_img.jpg) bottom 18px center / 100% no-repeat;
+  background: url(../images/background/header_img.jpg) top center / 100% no-repeat,
+    url(../images/background/bottom_img.jpg) bottom 18px center / 100% no-repeat;
 }
 /******************** ОБЩИЕ СТИЛИ *******************/
 .button {
@@ -109,7 +112,7 @@ body {
   margin-bottom: -8px;
 }
 
-.contacts__schedule {
+.contacts__dropdown-title {
   font-size: 13px;
   line-height: 20px;
   text-decoration: underline;
@@ -153,7 +156,7 @@ body {
   border-bottom-color: rgba(205, 209, 210, 0.8);
 }
 
-.contacts__schedule:hover .hint {
+.contacts__dropdown-title:hover .hint {
   visibility: visible;
   opacity: 1;
 }
@@ -192,7 +195,7 @@ body {
 }
 
 .tours__title::after {
-  content: url(../images/fire.png);
+  content: url(../images/decor/fire.png);
   position: absolute;
   width: 21px;
   height: 28px;
@@ -262,18 +265,18 @@ body {
   padding: 18px 29px 18px 30px;
 }
 
-.tours__btn_transparent {
+.tours__btn--color--transparent {
   background-color: #fff;
   color: #f5170e;
   border: 1px solid #f5170e;
 }
 
-.tours__btn_transparent:hover {
+.tours__btn--color--transparent:hover {
   color: #fff;
 }
 
 .tours__notion:first-child::before {
-  content: url(../images/calendar.png);
+  content: url(../images/icons/calendar.png);
   position: absolute;
   width: 26px;
   height: 26px;
@@ -283,7 +286,7 @@ body {
 }
 
 .tours__notion:nth-child(2)::before {
-  content: url(../images/meal.png);
+  content: url(../images/icons/meal.png);
   position: absolute;
   width: 36px;
   height: 26px;
@@ -396,7 +399,7 @@ body {
 }
 
 .about-us__card {
-  background-image: url(../images/mountains.jpg);
+  background-image: url(../images/img_content/mountains.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 785px;
@@ -476,36 +479,36 @@ body {
   transition: 0.3s linear;
 }
 
-.socials__link_tl::before {
-  background-image: url(../images/telegram.png);
+.socials__link--icon--tl::before {
+  background-image: url(../images/icons/telegram.png);
 }
 
-.socials__link_vk::before {
-  background-image: url(../images/vk.png);
+.socials__link--icon--vk::before {
+  background-image: url(../images/icons/vk.png);
 }
 
-.socials__link_fb::before {
-  background-image: url(../images/facebook.png);
+.socials__link--icon--fb::before {
+  background-image: url(../images/icons/facebook.png);
 }
 
-.socials__link_ins::before {
-  background-image: url(../images/in.png);
+.socials__link--icon--ins::before {
+  background-image: url(../images/icons/in.png);
 }
 
-.socials__link_tl:hover::before {
-  background-image: url(../images/telegram_hover.png);
+.socials__link--icon--tl:hover::before {
+  background-image: url(../images/icons/telegram_hover.png);
 }
 
-.socials__link_vk:hover::before {
-  background-image: url(../images/vk_hover.png);
+.socials__link--icon--vk:hover::before {
+  background-image: url(../images/icons/vk_hover.png);
 }
 
-.socials__link_fb:hover::before {
-  background-image: url(../images/facebook_hover.png);
+.socials__link--icon--fb:hover::before {
+  background-image: url(../images/icons/facebook_hover.png);
 }
 
-.socials__link_ins:hover::before {
-  background-image: url(../images/ins_hover.png);
+.socials__link--icon--ins:hover::before {
+  background-image: url(../images/icons/ins_hover.png);
 }
 
 .footer .contacts {
