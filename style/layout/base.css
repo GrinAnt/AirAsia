@@ -20,6 +20,9 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.mane-page-wrapper {
   background: url(../../images/background/header_img.jpg) top center / 100% no-repeat,
     url(../../images/background/bottom_img.jpg) bottom 18px center / 100% no-repeat;
 }

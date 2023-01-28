@@ -12,15 +12,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   width: 785px;
-  padding-left: 81px;
   border-radius: 5px;
-  bottom: -43px;
+  /* bottom: -43px; */
+  top: 97px;
   right: 2px;
   position: absolute;
   z-index: 50;
   margin-left: auto;
-  padding-bottom: 66px;
-  padding-top: 70px;
+  padding: 70px 81px 66px;
 }
 
 .about-us__title {

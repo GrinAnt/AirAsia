@@ -24,10 +24,6 @@
   border-radius: 5px 5px 0 0;
 }
 
-.tours__img {
-  margin-bottom: 29px;
-}
-
 .tours__item {
   list-style: none;
   background-color: #fff;
@@ -40,10 +36,7 @@
 }
 
 .tours__info {
-  width: 324px;
-  padding-left: 3px;
-  margin: 0 auto;
-  margin-bottom: 25px;
+  padding: 29px 22px 25px;
 }
 
 .tours__name {

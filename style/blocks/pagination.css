@@ -36,3 +36,8 @@
   background-color: #fff;
   color: #f5170e;
 }
+
+.pagination__item--active .pagination__link {
+  background-color: #fff;
+  color: #f5170e;
+}

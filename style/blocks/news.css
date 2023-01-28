@@ -8,10 +8,6 @@
   margin-bottom: 50px;
 }
 
-.news__item {
-  list-style: none;
-}
-
 .news__card {
   position: relative;
 }
@@ -26,9 +22,8 @@
 
 .news__desc {
   position: absolute;
-  bottom: 25px;
-  margin-left: 31px;
-  margin-bottom: 26px;
+  bottom: 51px;
+  padding: 0 31px;
 }
 
 .news__date {
