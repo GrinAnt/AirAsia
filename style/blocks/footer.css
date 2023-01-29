@@ -1,5 +1,5 @@
 .footer {
-  padding-bottom: 150px;
+  padding-bottom: 57px;
 }
 
 .footer__services {
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 45px;
+  padding-top: 44px;
 }
 
 .footer-inner__col {

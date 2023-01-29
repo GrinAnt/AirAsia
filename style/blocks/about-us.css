@@ -21,15 +21,12 @@
 .about-us__card {
   background-image: url(../../images/img_content/mountains.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
   width: 785px;
   border-radius: 5px;
   position: absolute;
   top: 97px;
   right: 2px;
-  margin-left: auto;
-  padding: 70px 81px 66px;
-  overflow: hidden;
+  padding: 70px 203px 66px 81px;
 }
 
 .about-us__title {
@@ -39,9 +36,10 @@
 
 .about-us__card p {
   margin-bottom: 43px;
-  width: 502px;
+  /* width: 502px; */
+  height: 135px;
+  overflow: hidden;
   font-size: 16px;
   line-height: 27px;
   color: #060606;
-  overflow: hidden;
 }

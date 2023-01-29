@@ -36,7 +36,8 @@
 }
 
 .tours__info {
-  padding: 29px 22px 25px;
+  max-width: 362px;
+  padding: 29px 21px 25px;
 }
 
 .tours__name {
