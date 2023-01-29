@@ -1,5 +1,5 @@
 .about-us {
-  margin-bottom: 98px;
+  margin-bottom: 55px;
 }
 
 .about-us__picture {
@@ -7,25 +7,28 @@
 }
 
 .about-us__inner {
-  position: relative;
+  display: flex;
 }
 
 .about-us__inner::before {
-  display: inline-block;
+  display: block;
   content: "";
   width: 490px;
   height: 505px;
   background: url(../../images/img_content/gates.jpg) center center / cover no-repeat;
+  border-radius: 5px;
 }
 
 .about-us__card {
   background-image: url(../../images/img_content/mountains.jpg);
   background-repeat: no-repeat;
-  width: 785px;
+  background-size: cover;
+  max-width: 785px;
+  min-height: 455px;
+  margin-left: -136px;
+  margin-top: 97px;
   border-radius: 5px;
-  position: absolute;
-  top: 97px;
-  right: 2px;
+  display: inline-block;
   padding: 70px 203px 66px 81px;
 }
 
@@ -36,9 +39,6 @@
 
 .about-us__card p {
   margin-bottom: 43px;
-  /* width: 502px; */
-  height: 135px;
-  overflow: hidden;
   font-size: 16px;
   line-height: 27px;
   color: #060606;

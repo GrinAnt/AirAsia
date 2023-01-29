@@ -15,23 +15,8 @@ body {
   color: #fff;
 }
 
-.mane-page-wrapper {
-  background: url(../../images/background/header_img.jpg) top center no-repeat,
-    url(../../images/background/bottom_img.jpg) bottom 170px center no-repeat;
-  background-color: #001821;
-}
-
-.wrapper__services {
-  background-color: #fff;
-}
-
-.hero {
-  margin-bottom: 98px;
-  background: url(../../images/background/heade_services.jpg) top center / cover no-repeat;
-}
-
 .container {
-  width: 1141px;
+  max-width: 1141px;
   margin: 0 auto;
 }
 
@@ -77,4 +62,8 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
+}
+
+.main {
+  flex-grow: 1;
 }

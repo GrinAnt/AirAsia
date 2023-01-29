@@ -1,14 +1,18 @@
 .pagination {
   display: flex;
-  justify-content: space-between;
-  width: 380px;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination__text {
   font-size: 16px;
   line-height: 20px;
-  padding-top: 4px;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.pagination__item {
+  text-align: center;
 }
 
 .pagination__list {
@@ -47,10 +51,10 @@
   background-color: #f5170e;
 }
 
-.pagination--width {
-  width: 400px;
-}
-
 .pagination--color .pagination__text {
   padding-left: 28px;
+}
+
+.partners__item:nth-child(2) {
+  align-self: baseline;
 }

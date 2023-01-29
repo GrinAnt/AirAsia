@@ -18,3 +18,7 @@
   display: flex;
   align-items: center;
 }
+
+.footer .contacts {
+  margin-left: 73px;
+}

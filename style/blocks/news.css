@@ -1,11 +1,11 @@
 .news {
-  margin-bottom: 144px;
+  margin-bottom: 146px;
 }
 
 .news__list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .news__card {

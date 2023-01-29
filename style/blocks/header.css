@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 121px;
-  align-items: center;
   padding-top: 28px;
+  align-items: center;
 }
 
 .header-inner__services {
-  margin-bottom: 96px;
+  margin-bottom: 106px;
 }
 
 .header-inner__col {
@@ -17,5 +17,6 @@
 
 .header-services__title {
   font-size: 72px;
-  margin-bottom: 106px;
+  line-height: 1;
+  margin-bottom: 118px;
 }

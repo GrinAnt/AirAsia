@@ -27,8 +27,10 @@
 .tours__item {
   list-style: none;
   background-color: #fff;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px;
   margin-right: 27px;
+  display: flex;
+  flex-direction: column;
 }
 
 .tours__item:nth-child(3n) {
@@ -38,6 +40,9 @@
 .tours__info {
   max-width: 362px;
   padding: 29px 21px 25px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .tours__name {
@@ -69,6 +74,8 @@
 
 .tours__btn {
   padding: 18px 29px 18px 30px;
+  margin-top: auto;
+  margin-right: auto;
 }
 
 .tours__notion:first-child::before {

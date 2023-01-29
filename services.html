@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style/layout/normalize.css" />
     <link rel="stylesheet" href="style/main.css" />
     <title>Услуги</title>
   </head>
@@ -15,7 +14,7 @@
     <div class="wrapper wrapper__services">
       <div class="hero">
         <div class="container">
-          <header class="header header__services">
+          <header class="header">
             <div class="header-inner header-inner__services">
               <div class="header-inner__col">
                 <div class="logo logo--size--big">
@@ -23,6 +22,7 @@
                     <img class="logo__image" src="images/logo/logo.png" alt="Логотип AirAsia" />
                   </a>
                 </div>
+
                 <nav class="menu">
                   <ul class="menu__list">
                     <li class="menu__items">
@@ -37,6 +37,7 @@
                   </ul>
                 </nav>
               </div>
+
               <div class="header-inner__col">
                 <address class="contacts">
                   <a class="contacts__phone" href="tel:+78007003030">8 800 700 30 30</a>
@@ -51,8 +52,10 @@
               </div>
             </div>
           </header>
+
           <section class="header-services">
             <h1 class="header-services__title">Услуги</h1>
+
             <div class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumps__item">
@@ -73,12 +76,14 @@
             <h2 class="services__title visually-hidden">Услуги</h2>
             <ul class="services__list">
               <li class="services__item">
-                <img
-                  class="services__img"
-                  src="images/img_content/waterfall.jpg"
-                  alt="Мужчина перед водопадом"
-                  width="460"
-                  height="333" />
+                <div class="services__images">
+                  <img
+                    class="services__img"
+                    src="images/img_content/waterfall.jpg"
+                    alt="Мужчина перед водопадом"
+                    width="460"
+                    height="333" />
+                </div>
                 <div class="services__desc">
                   <h3 class="services__title titels">Водопад Янг-бей</h3>
                   <p>
@@ -91,12 +96,14 @@
                 </div>
               </li>
               <li class="services__item">
-                <img
-                  class="services__img"
-                  src="images/img_content/monkeys.jpg"
-                  alt="Обезьяны в воде"
-                  width="460"
-                  height="333" />
+                <div class="services__images">
+                  <img
+                    class="services__img"
+                    src="images/img_content/monkeys.jpg"
+                    alt="Обезьяны в воде"
+                    width="460"
+                    height="333" />
+                </div>
                 <div class="services__desc">
                   <h3 class="services__title titels">Остров обезьян</h3>
                   <p>
@@ -109,7 +116,7 @@
                 </div>
               </li>
             </ul>
-            <div class="pagination pagination--color pagination--width">
+            <div class="pagination pagination--color">
               <p class="pagination__text">Страница 1 из 7</p>
               <ul class="pagination__list">
                 <li class="pagination__item">
