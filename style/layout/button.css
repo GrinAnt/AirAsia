@@ -8,9 +8,19 @@
   padding: 18px 40px;
   background-color: #f5170e;
   border-radius: 35px;
-  transition: 0.2s linear;
+  transition: 0.3s linear;
 }
 
 .button:hover {
   background-color: #da0100;
+}
+
+.button--color--transparent {
+  background-color: #fff;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+}
+
+.button--color--transparent:hover {
+  color: #fff;
 }

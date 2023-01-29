@@ -1,10 +1,21 @@
 .about-us {
   margin-bottom: 98px;
-  position: relative;
 }
 
 .about-us__picture {
   border-radius: 5px;
+}
+
+.about-us__inner {
+  position: relative;
+}
+
+.about-us__inner::before {
+  display: inline-block;
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url(../../images/img_content/gates.jpg) center center / cover no-repeat;
 }
 
 .about-us__card {
@@ -16,7 +27,6 @@
   position: absolute;
   top: 97px;
   right: 2px;
-  z-index: 50;
   margin-left: auto;
   padding: 70px 81px 66px;
   overflow: hidden;

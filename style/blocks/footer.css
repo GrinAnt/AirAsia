@@ -1,15 +1,20 @@
 .footer {
+  padding-bottom: 150px;
+}
+
+.footer__services {
+  background-color: #001821;
+  padding-bottom: 45px;
+}
+
+.footer-inner {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
-  padding-top: 43px;
-}
-
-.footer--line-top {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 45px;
 }
 
-.footer__col {
+.footer-inner__col {
   display: flex;
   align-items: center;
 }

@@ -14,7 +14,6 @@
 .pagination__list {
   display: flex;
   list-style: none;
-  position: relative;
 }
 
 .pagination__link {
@@ -30,9 +29,28 @@
   width: 32px;
   height: 32px;
   padding: 5px;
+  transition: 0.3s;
 }
 
 .pagination__link:hover {
   background-color: #fff;
   color: #f5170e;
+}
+
+.pagination--color .pagination__text,
+.pagination--color .pagination__link {
+  color: #000;
+}
+
+.pagination--color .pagination__link:hover {
+  color: #fff;
+  background-color: #f5170e;
+}
+
+.pagination--width {
+  width: 400px;
+}
+
+.pagination--color .pagination__text {
+  padding-left: 28px;
 }

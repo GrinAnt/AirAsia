@@ -70,16 +70,6 @@
   padding: 18px 29px 18px 30px;
 }
 
-.tours__btn--color--transparent {
-  background-color: #fff;
-  color: #f5170e;
-  border: 1px solid #f5170e;
-}
-
-.tours__btn--color--transparent:hover {
-  color: #fff;
-}
-
 .tours__notion:first-child::before {
   content: url(../../images/icons/calendar.png);
   position: absolute;
