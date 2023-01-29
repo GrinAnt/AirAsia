@@ -6,7 +6,16 @@
   padding-top: 28px;
 }
 
+.header-inner__services {
+  margin-bottom: 96px;
+}
+
 .header-inner__col {
   display: flex;
   align-items: center;
+}
+
+.header-services__title {
+  font-size: 72px;
+  margin-bottom: 106px;
 }
