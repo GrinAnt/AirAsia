@@ -58,3 +58,7 @@
 .partners__item:nth-child(2) {
   align-self: baseline;
 }
+
+.pagination--reviews .pagination__text {
+  padding-left: 0;
+}

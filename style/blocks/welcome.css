@@ -1,0 +1,54 @@
+.wrapper-welcome {
+  /* margin: 0 auto; */
+  background: url(../../images/decor/shades.png) center center / 591px 248px no-repeat,
+    url(../../images/background/welcome_bg.jpg) center center / cover no-repeat;
+  min-height: 100vh;
+}
+
+.welcome__preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.welcome__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 129px;
+  margin-bottom: 54px;
+}
+
+.welcome__logo {
+  margin-bottom: -5px;
+}
+
+.welcome__text {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.welcome__button {
+  text-align: center;
+}
+
+.welcome_btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 58px;
+  background-color: #f5170e;
+  border-radius: 35px;
+}
+
+.welcome_btn:hover {
+  background-color: #da0100;
+}

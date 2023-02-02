@@ -20,6 +20,11 @@
   cursor: pointer;
   position: relative;
   right: 2px;
+  color: #98a4a8;
+}
+
+.contacts__dropdown-title:hover {
+  color: #fff;
 }
 
 .contacts__info {

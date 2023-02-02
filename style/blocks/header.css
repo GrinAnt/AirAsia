@@ -6,8 +6,11 @@
   align-items: center;
 }
 
-.header-inner__services {
-  margin-bottom: 106px;
+.header-inner__internal {
+  margin-bottom: 93px;
+}
+.header-inner__reviews {
+  margin-bottom: 82px;
 }
 
 .header-inner__col {
@@ -15,8 +18,12 @@
   align-items: center;
 }
 
-.header-services__title {
+.header-internal__title {
   font-size: 72px;
-  line-height: 1;
+  line-height: 96px;
+  margin-bottom: 106px;
+}
+
+.header-internal__title--reviews {
   margin-bottom: 118px;
 }

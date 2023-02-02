@@ -1,0 +1,12 @@
+.advt {
+  min-height: 363px;
+  background: #f4ae95 url(../../images/img_content/adtv_bg.jpg) top center / cover no-repeat;
+}
+
+.advt__title {
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: 700;
+  max-width: 600px;
+  padding-top: 117px;
+}
