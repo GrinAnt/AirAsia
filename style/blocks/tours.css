@@ -7,12 +7,13 @@
 }
 
 .tours__title::after {
-  content: url(../../images/decor/fire.png);
+  content: "";
+  background: url(../../images/icons/css_sprites.png) -178px -106px;
   position: absolute;
   width: 21px;
   height: 28px;
   left: 288px;
-  top: 3px;
+  top: 13px;
 }
 
 .tours__list {
@@ -79,17 +80,20 @@
 }
 
 .tours__notion:first-child::before {
-  content: url(../../images/icons/calendar.png);
-  position: absolute;
+  content: "";
+  display: inline-block;
+  background: url(../../images/icons/css_sprites.png) -178px -60px;
   width: 26px;
   height: 26px;
-  padding-right: 10px;
+  position: absolute;
   top: -3px;
   left: 6px;
+  padding-right: 10px;
 }
 
 .tours__notion:nth-child(2)::before {
-  content: url(../../images/icons/meal.png);
+  content: "";
+  background: url(../../images/icons/css_sprites.png) -122px -122px;
   position: absolute;
   width: 36px;
   height: 26px;

@@ -3,25 +3,20 @@
 }
 
 .reviews__list {
-  display: flex;
-  justify-content: space-between;
   color: #1a1b1e;
-  margin-bottom: 53px;
+  margin-bottom: 63px;
+  column-count: 2;
+  column-gap: 27px;
 }
 
 .reviews__item {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   background-color: #f4f5f5;
   width: 557px;
-  padding: 50px 30px 31px 28px;
-  margin-bottom: 21px;
-  border-radius: 5px;
-  min-height: 540px;
-}
-
-.reviews_col:first-child .reviews__item {
+  padding: 50px 30px 36px 28px;
   margin-bottom: 11px;
+  border-radius: 5px;
 }
 
 .reviews__data {
@@ -33,14 +28,10 @@
 .reviews__userpic {
   width: 142px;
   height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
   margin-right: 23px;
   flex: 1 0 auto;
-}
-
-.reviews__avatar {
-  display: block;
-  max-width: 100%;
-  border-radius: 50%;
 }
 
 .reviews__user-link {
@@ -59,7 +50,7 @@
 }
 
 .reviews__user-link::after {
-  content: url(../images/decor/vk-blue.png);
+  content: url(../../images/decor/vk-blue.png);
   width: 30px;
   height: 30px;
   margin-left: 7px;
@@ -98,30 +89,6 @@
   font-weight: 600;
 }
 
-.reviews_col:first-child {
+.reviews__item:first-child {
   margin-top: 6px;
-}
-
-.reviews_col:first-child .reviews__data {
-  margin-bottom: 29px;
-}
-
-.reviews_col:first-child .reviews__subtitle {
-  margin-bottom: 12px;
-}
-
-.reviews_col:first-child .reviews__text {
-  margin-bottom: 52px;
-}
-
-.reviews__item--size .reviews__data {
-  margin-bottom: 33px;
-}
-
-.reviews__item--size .reviews__subtitle {
-  margin-bottom: 30px;
-}
-
-.reviews__item--size .reviews__text {
-  margin-bottom: 28px;
 }

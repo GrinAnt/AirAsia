@@ -1,7 +1,6 @@
 @import url(layout/normalize.css);
 @import url(layout/base.css);
 @import url(layout/button.css);
-
 @import url(blocks/header.css);
 @import url(blocks/logo.css);
 @import url(blocks/menu.css);
@@ -24,5 +23,4 @@
 @import url(blocks/advt.css);
 @import url(blocks/comment.css);
 @import url(blocks/welcome.css);
-
-/************************ ПРИВЕТСТВЕННАЯ ***********************/
+@import url(blocks/togle.css);

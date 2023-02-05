@@ -1,14 +1,38 @@
 .hint {
   position: absolute;
-  right: 0;
-  visibility: hidden;
+  top: 100%;
+  right: -9999px;
   opacity: 0;
   margin-top: 6px;
   width: 157px;
   padding: 13px 17px;
   background-color: rgba(205, 209, 210, 0.8);
   border-radius: 4px;
-  transition: all 0.4s linear;
+  transition: opacity 0.4s linear;
+}
+
+.hint:after {
+  content: "";
+  position: absolute;
+  bottom: 68px;
+  right: 42px;
+  border: 10px solid transparent;
+  border-bottom-color: rgba(205, 209, 210, 0.8);
+}
+
+.hint::before {
+  content: "";
+  display: block;
+  height: 9px;
+  position: absolute;
+  top: -7px;
+  right: 0;
+  left: 0;
+}
+
+.contacts__dropdown-title:hover .hint {
+  opacity: 1;
+  right: 0;
 }
 
 .hint__text {
@@ -20,20 +44,4 @@
 
 .hint__text:first-child {
   font-weight: 700;
-}
-
-.hint:after {
-  content: "";
-  position: absolute;
-  bottom: 68px;
-  right: 42px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-bottom-color: rgba(205, 209, 210, 0.8);
-}
-
-.contacts__dropdown-title:hover .hint {
-  visibility: visible;
-  opacity: 1;
 }

@@ -55,56 +55,6 @@
   outline: none;
 }
 
-.comment__hashtag {
-  display: flex;
-  margin-bottom: 25px;
-}
-
-.comment__subtext {
-  color: #1a1b1e;
-  margin-right: 74px;
-  padding-top: 11px;
-  flex: 1 0 auto;
-}
-
-.comment__list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 703px;
-}
-
-.comment__item {
-  margin-bottom: 9px;
-}
-
-.comment__item:not(:last-child) {
-  margin-right: 15px;
-}
-
-.comment__item:nth-child(5) {
-  margin-right: 0;
-}
-
-.comment__link {
-  display: flex;
-  font-size: 13px;
-  line-height: 18px;
-  color: #303030;
-  padding: 9px 15px;
-  background-color: #e7e7e7;
-  border-radius: 35px;
-}
-
-.comment__link:hover {
-  color: #1a1b1e;
-  background-color: #b9eae4;
-}
-
-.comment__item--active .comment__link {
-  color: #1a1b1e;
-  background-color: #b9eae4;
-}
-
 .comment__btn {
   text-align: end;
 }

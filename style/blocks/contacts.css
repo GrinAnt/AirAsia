@@ -21,6 +21,7 @@
   position: relative;
   right: 2px;
   color: #98a4a8;
+  transition: color 0.2s linear;
 }
 
 .contacts__dropdown-title:hover {
