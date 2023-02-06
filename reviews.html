@@ -227,6 +227,7 @@
         <section class="comment">
           <div class="container">
             <h2 class="comment__title titels">Оставьте отзыв</h2>
+
             <form class="comment__form" action="" method="get">
               <div class="comment__col">
                 <label class="visually-hidden" for="name">Имя</label>
@@ -242,45 +243,64 @@
                   required />
               </div>
 
-              <label class="visually-hidden" for="story">Отзыв</label>
-              <textarea
-                class="comment__text"
-                id="story"
-                name="story"
-                rows="5"
-                cols="113"
-                placeholder="Напишите свой честный отзыв ;)"></textarea>
-              <div class="togle">
-                <div class="togle__text">Какими услугами компании пользуетесь?</div>
-                <div class="togle__check">
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="monkey island" />
-                    <span class="togle__name">Остров обезьян</span>
-                  </label>
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="Thailand tour" />
-                    <span class="togle__name">Тур по Тайланду</span>
-                  </label>
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="Yang Bay Waterfall" />
-                    <span class="togle__name">Водопад Янг-бей</span>
-                  </label>
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="Indonesia Tour" />
-                    <span class="togle__name">Тур по Индонезии</span>
-                  </label>
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="None" />
-                    <span class="togle__name">Никакими</span>
-                  </label>
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="Bali Tour" />
-                    <span class="togle__name">Тур по Бали</span>
-                  </label>
-                  <label class="togle__list">
-                    <input class="togle__box" type="checkbox" name="Other" />
-                    <span class="togle__name">Другое</span>
-                  </label>
+              <div class="comment__textarea">
+                <label class="visually-hidden" for="story">Отзыв</label>
+                <textarea
+                  class="comment__text"
+                  id="story"
+                  name="story"
+                  rows="5"
+                  cols="113"
+                  placeholder="Напишите свой честный отзыв ;)"></textarea>
+              </div>
+
+              <div class="comment__togle">
+                <div class="comment__togle-text">Какими услугами компании пользуетесь?</div>
+                <div class="comment__togle-check">
+                  <ul class="comment__list">
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="monkey island" />
+                        <span class="comment__togle-name">Остров обезьян</span>
+                      </label>
+                    </li>
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="Thailand tour" />
+                        <span class="comment__togle-name">Тур по Тайланду</span>
+                      </label>
+                    </li>
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="Yang Bay Waterfall" />
+                        <span class="comment__togle-name">Водопад Янг-бей</span>
+                      </label>
+                    </li>
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="Indonesia Tour" />
+                        <span class="comment__togle-name">Тур по Индонезии</span>
+                      </label>
+                    </li>
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="None" />
+                        <span class="comment__togle-name">Никакими</span>
+                      </label>
+                    </li>
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="Bali Tour" />
+                        <span class="comment__togle-name">Тур по Бали</span>
+                      </label>
+                    </li>
+                    <li class="comment__item">
+                      <label class="comment__togle-list">
+                        <input class="comment__togle-box" type="checkbox" name="Other" />
+                        <span class="comment__togle-name">Другое</span>
+                      </label>
+                    </li>
+                  </ul>
                 </div>
               </div>
               <div class="comment__btn">

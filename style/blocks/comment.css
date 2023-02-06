@@ -1,5 +1,6 @@
 .comment {
   background-color: #f4f5f5;
+  padding-top: 63px;
   padding-bottom: 96px;
 }
 
@@ -14,7 +15,6 @@
   line-height: 65px;
   color: #1a1b1e;
   margin-bottom: 56px;
-  padding-top: 63px;
 }
 
 .comment__col {
@@ -61,4 +61,57 @@
 
 .comment__btn:not(:last-child) {
   margin-right: 13px;
+}
+
+/******************** Checkbox **********************/
+
+.comment__togle {
+  display: flex;
+  margin-bottom: 26px;
+}
+
+.comment__togle-text {
+  color: #1a1b1e;
+  margin-right: 74px;
+  padding-top: 11px;
+  flex: 1 0 auto;
+}
+
+.comment__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  line-height: 18px;
+  color: #303030;
+  flex: 1 0 auto;
+}
+
+.comment__togle-box {
+  display: none;
+}
+
+.comment__togle-name {
+  display: inline-block;
+  padding: 9px 15px 10px;
+  background-color: #e7e7e7;
+  border-radius: 35px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.comment__item:not(:last-child) {
+  margin-right: 14px;
+}
+
+.comment__item:nth-child(5) {
+  margin-right: 0;
+}
+
+.comment__togle-name:hover {
+  background-color: #b9eae4;
+}
+
+.comment__togle-box:checked ~ .comment__togle-name {
+  background-color: #b9eae4;
 }
