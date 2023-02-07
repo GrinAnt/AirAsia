@@ -90,12 +90,15 @@
   display: none;
 }
 
+.comment__item {
+  margin-bottom: 7px;
+}
+
 .comment__togle-name {
   display: inline-block;
   padding: 9px 15px 10px;
   background-color: #e7e7e7;
   border-radius: 35px;
-  margin-bottom: 7px;
   cursor: pointer;
   transition: 0.3s;
 }
